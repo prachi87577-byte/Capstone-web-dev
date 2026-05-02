@@ -1,7 +1,8 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/layout/Layout';
+import Layout from '.src/components/layout/Layout.jsx';
 
+// Import All Pages
 import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
 import Products from './pages/Products';
